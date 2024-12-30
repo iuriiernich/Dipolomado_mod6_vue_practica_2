@@ -1,0 +1,186 @@
+{
+  "agentes": [
+    {
+      "id": "1",
+      "nombre": "Juan Perez",
+      "email": "juan.perez@gmail.com",
+      "telefono": "658-555-1234"
+    },
+    {
+      "id": "2",
+      "nombre": "Maria Gomez",
+      "email": "maria.gomez@gmail.com",
+      "telefono": "712-555-5678"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Lopez",
+      "email": "carlos.lopez@gmail.com",
+      "telefono": "613-555-8765"
+    },
+    {
+      "id": "4",
+      "nombre": "Laura Fernandez",
+      "email": "laura.fernandez@gmail.com",
+      "telefono": "724-555-4321"
+    },
+    {
+      "id": "5",
+      "nombre": "Ana Ramirez",
+      "email": "ana.ramirez@gmail.com",
+      "telefono": "615-555-0001"
+    }
+  ],
+  "inmuebles": [
+    {
+      "id": "1",
+      "direccion": "Calle Falsa 123",
+      "tipo": "Casa",
+      "precio": 150000,
+      "agenteId": "1",
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "2",
+      "direccion": "Av. Siempre Viva 742",
+      "tipo": "Departamento",
+      "precio": 120000,
+      "agenteId": "2",
+      "disponibilidad": "No disponible"
+    },
+    {
+      "id": "3",
+      "direccion": "Calle Sol 456",
+      "tipo": "Casa",
+      "precio": 200000,
+      "agenteId": "3",
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "4",
+      "direccion": "Av. Luna 789",
+      "tipo": "Terreno",
+      "precio": 50000,
+      "agenteId": "4",
+      "disponibilidad": "Disponible"
+    },
+    {
+      "id": "5",
+      "direccion": "Calle Estrella 321",
+      "tipo": "Departamento",
+      "precio": 180000,
+      "agenteId": "5",
+      "disponibilidad": "No disponible"
+    },
+    {
+      "id": "7508",
+      "direccion": "Calle Montana 123",
+      "tipo": "Terreno",
+      "precio": 10000,
+      "disponibilidad": "Disponible",
+      "agenteId": "5"
+    },
+    {
+      "direccion": "Calle 234",
+      "precio": 845000,
+      "disponibilidad": "Disponible",
+      "agenteId": "1",
+      "tipo": "Terreno",
+      "id": "qQ5coak",
+      "agente": {
+        "id": "5",
+        "nombre": "Ana Ramirez",
+        "email": "ana.ramirez@gmail.com",
+        "telefono": "615-555-0001"
+      }
+    }
+  ],
+  "prospectos": [
+    {
+      "id": "1",
+      "nombre": "Pedro Alvarez",
+      "email": "pedro.alvarez@gmail.com",
+      "telefono": "662-555-2345",
+      "interesInmuebleId": "4"
+    },
+    {
+      "id": "2",
+      "nombre": "Lucia Martinez",
+      "email": "lucia.martinez@gmail.com",
+      "telefono": "702-555-3456",
+      "interesInmuebleId": "2"
+    },
+    {
+      "id": "3",
+      "nombre": "Miguel Torres",
+      "email": "miguel.torres@gmail.com",
+      "telefono": "620-555-4567",
+      "interesInmuebleId": "3"
+    },
+    {
+      "id": "4",
+      "nombre": "Sofia Rojas",
+      "email": "sofia.rojas@gmail.com",
+      "telefono": "602-555-5678",
+      "interesInmuebleId": "4"
+    },
+    {
+      "id": "5",
+      "nombre": "Diego Castillo",
+      "email": "diego.castillo@gmail.com",
+      "telefono": "750-555-6789",
+      "interesInmuebleId": "5"
+    },
+    {
+      "nombre": "Ericka Saavedra",
+      "email": "egsaavedra@gmail.com",
+      "telefono": "2342342343",
+      "interesInmuebleId": "qQ5coak",
+      "id": "k2pu32G"
+    }
+  ],
+  "citas": [
+    {
+      "id": "1",
+      "fecha": "2025-01-05T10:00",
+      "prospectoId": "1",
+      "inmuebleId": "3",
+      "agenteId": "1"
+    },
+    {
+      "id": "2",
+      "fecha": "2025-02-10T14:00",
+      "prospectoId": "2",
+      "inmuebleId": "1",
+      "agenteId": "2"
+    },
+    {
+      "id": "3",
+      "fecha": "2024-12-30T16:00",
+      "prospectoId": "3",
+      "inmuebleId": "3",
+      "agenteId": "3"
+    },
+    {
+      "id": "4",
+      "fecha": "2024-01-08T09:30:00",
+      "prospectoId": "4",
+      "inmuebleId": "4",
+      "agenteId": "4"
+    },
+    {
+      "id": "5",
+      "fecha": "2024-01-09T11:00:00",
+      "prospectoId": "5",
+      "inmuebleId": "5",
+      "agenteId": "5"
+    },
+    {
+      "fecha": "2024-12-30T09:00",
+      "prospectoId": "k2pu32G",
+      "inmuebleId": "qQ5coak",
+      "agenteId": "1",
+      "id": "rgIB7Ay"
+    }
+  ]
+}

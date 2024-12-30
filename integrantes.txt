@@ -1,0 +1,11 @@
+ Practica 2 Vue3
+ Nombre(s) de integrante(s):
+ - Iurii Chernichenko
+   11246228
+
+
+ Pasos para iniciar el proyecto
+ 1) npm install
+ 2) npm run serve
+ 3) npm install -g json-server@0.17.4
+ 3) json-server --watch db/db.json --port 4000 
